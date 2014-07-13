@@ -53,3 +53,33 @@ LRU (Least Recent Used algorithm)。
 Problem Definition
 ---------------------------
 安排任务顺序，从而在某种target function下最优。time 和 completion time。全部是操作系统讲过的内容。
+
+
+A Greedy Algorithm
+--------------------------
+Intuition for task arrangement。全部是操作系统的内容。
+
+在之前的target function下:  
+1. 权重高的优先
+2. 时间短的优先
+
+同时考虑时间和权重: 考虑时间除以权重，比较这一个指标得到排名
+
+
+MST Problem Definition
+----------------------
+Minimum spanning tree
+
+linear time:
+- Prim algorithm
+- Dijkstra algorithm
+- Kroskal algorithm
+
+MST的定义：
+1. 没有环
+2. 把图中所有的点连起来
+3. 最短的
+
+为了简化，避免一些不必要的细节，有假设:
+1. 原来的图G是联通的
+2. 每条边的权重都是不同的
