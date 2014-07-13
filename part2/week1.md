@@ -38,4 +38,18 @@ design pattern:
 证明正确性的方法: (saying coming next, 不懂。。)  
 1. induction  
 2. exchange argument  
-3. other methods whatever works (证明贪婪算法正确没有固定模式，it's art rather than science)
+3. other methods whatever works (证明贪婪算法正确没有固定模式，it is art rather than science)
+
+
+Application: Optimal Caching
+----------------------------
+采用某种算法来控制换页方法，从而提高cache的命中率(操作系统的内容)。
+定理证明贪婪算法是最好的算法。
+
+LRU (Least Recent Used algorithm)。
+想法很自然，证明很难(exchange argument)
+
+
+Problem Definition
+---------------------------
+安排任务顺序，从而在某种target function下最优。time 和 completion time。全部是操作系统讲过的内容。
